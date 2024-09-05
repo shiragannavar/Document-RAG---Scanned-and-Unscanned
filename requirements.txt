@@ -33,6 +33,6 @@ ragstack-ai
 cassandra-driver
 lark
 PyPDF2
-PIL
+pillow
 pytesseract
 pymupdf
