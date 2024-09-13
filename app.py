@@ -111,7 +111,7 @@ ANSWER_PROMPT = ChatPromptTemplate.from_template(
 )
 
 CLASSIFY_PROMPT = ChatPromptTemplate.from_template(
-    """You are n expert document classifier. Your task is to classify the text in one of the below categories:
+    """You are an expert document classifier. Your task is to classify the text in one of the below categories:
 Legal
 Financial
 Corporate
