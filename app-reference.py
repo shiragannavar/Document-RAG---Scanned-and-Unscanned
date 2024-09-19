@@ -249,8 +249,8 @@ def handle_chat(question, selected_filename):
             for doc in documents:
                 if 'content' in doc:
                     text_data = f"content:{doc['content']}, page_number:{doc['metadata']['page_number']}"
-                    #result.append(text_data)
-                    print(result)
+                    result.append(text_data)
+                    #print(result)
             return result
 
             # return [doc['content'] for doc in documents if 'content' in doc]
